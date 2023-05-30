@@ -16,7 +16,6 @@ project "assimp"
         "code/PostProcessing/**",
         "contrib/irrXML",
 
-        --"code/AssetLib/glTF/**",
         "code/AssetLib/glTF2/**",
     }
 
@@ -24,6 +23,7 @@ project "assimp"
         "code",
         "include",
         "contrib/irrXML",
+        "contrib/zlib",
         "contrib/rapidjson/include",
     }
 
