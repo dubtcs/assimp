@@ -28,7 +28,6 @@ project "assimp"
 
     defines {
         "USE_STATIC_CRT",
-        "ASSIMP_BUILD_NO_OWN_ZLIB",
         "ASSIMP_BUILD_NO_X_IMPORTER",
         "ASSIMP_BUILD_NO_3DS_IMPORTER",
         "ASSIMP_BUILD_NO_MD3_IMPORTER",
