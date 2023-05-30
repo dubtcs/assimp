@@ -16,7 +16,8 @@ project "assimp"
         "code/PostProcessing/**",
         "contrib/irrXML",
 
-        "code/AssetLib/glTF2/**",
+        "code/AssetLib/glTF2/**.cpp",
+        "code/AssetLib/glTF2/**.h",
     }
 
     includedirs {
